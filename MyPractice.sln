@@ -25,15 +25,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Training", "Training\Traini
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFrameworkExamples", "EntityFrameworkExamples\EntityFrameworkExamples.csproj", "{C5CDFE82-043B-4925-8418-F189B68344A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileAndStreamExamples", "FileAndStreamExamples\FileAndStreamExamples.csproj", "{4061B882-45F3-4564-8B49-BFD3DE2AEE53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileAndStreamExamples", "FileAndStreamExamples\FileAndStreamExamples.csproj", "{4061B882-45F3-4564-8B49-BFD3DE2AEE53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegate", "Deligate\Delegate.csproj", "{1F91A854-2EC1-4D9E-8EC0-5E1E66360F9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegate", "Deligate\Delegate.csproj", "{1F91A854-2EC1-4D9E-8EC0-5E1E66360F9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaMethod", "LambdaMethod\LambdaMethod.csproj", "{450C3202-7DC9-48F2-BED8-7A2912C5988A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LambdaMethod", "LambdaMethod\LambdaMethod.csproj", "{450C3202-7DC9-48F2-BED8-7A2912C5988A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Event", "Event\Event.csproj", "{1360F934-D0ED-4306-AFD6-76ECFF56CADA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Event", "Event\Event.csproj", "{1360F934-D0ED-4306-AFD6-76ECFF56CADA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqExamples", "LinqExamples\LinqExamples.csproj", "{745C7459-FB26-4360-B924-3695CA5CB8F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqExamples", "LinqExamples\LinqExamples.csproj", "{745C7459-FB26-4360-B924-3695CA5CB8F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadingExample", "ThreadingExample\ThreadingExample.csproj", "{6F418196-BBDB-40FA-9A59-281D582BC4DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{745C7459-FB26-4360-B924-3695CA5CB8F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{745C7459-FB26-4360-B924-3695CA5CB8F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{745C7459-FB26-4360-B924-3695CA5CB8F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F418196-BBDB-40FA-9A59-281D582BC4DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F418196-BBDB-40FA-9A59-281D582BC4DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F418196-BBDB-40FA-9A59-281D582BC4DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F418196-BBDB-40FA-9A59-281D582BC4DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
